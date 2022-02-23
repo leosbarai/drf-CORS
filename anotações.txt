@@ -1,0 +1,12 @@
+Criação da VENV: python3 -m venv ./venv
+Ativar VENV: source venv/bin/activate
+Instalar as dependências do projeto (listadas no arquivo requirements): pip install -r requirements.txt
+Listar dependências instaladas: pip freeze
+
+Gerar script para banco: python manage.py makemigrations
+Criar as bases de dados: python manage.py migrate
+Subir server: python manage.py runserver
+
+Criar usuário para acessar as APIs(parar o server para executar): python manage.py createsuperuser
+(Usuário leonardo.sbarai - senha: 12345678)
+(Executar o script do seed.py para popular os dados de alunos e cursos)
